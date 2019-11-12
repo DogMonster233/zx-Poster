@@ -1,0 +1,573 @@
+@charset "utf-8";
+body,
+html {
+	height: 100%;
+}
+
+body {
+	font-size: 0;
+	position: relative;
+}
+
+img {
+	pointer-events: none;
+}
+
+.touch_body {
+	-webkit-overflow-scrolling: touch;
+	overflow-y: auto;
+}
+
+.poi-eve {
+	pointer-events: auto;
+}
+
+
+/*loading*/
+
+.loadDiv {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	background-color: #D9D9D9;
+}
+
+.bg {
+	width: 100%;
+	height: 100%;
+}
+
+.txt_area {
+	position: absolute;
+	left: 0;
+	top: 90%;
+	width: 100%;
+	height: 0.6rem;
+	line-height: 0.6rem;
+}
+
+.txt_area {
+	width: 100%;
+	height: 0.6rem;
+	z-index: 9999;
+}
+
+.txt_area .txt {
+	font-size: 0.3rem;
+	color: #fff;
+	text-align: center;
+}
+
+.core {
+	height: 18px;
+	overflow: hidden;
+}
+
+.core li {
+	display: block;
+	font-size: 15px;
+	line-height: 18px;
+	text-decoration: none;
+	color: #333
+}
+
+
+/*修改按钮*/
+
+.swiper_btn_prev {
+	position: absolute;
+	top: 4.76rem;
+	left: 0rem;
+	width: 0.39rem;
+	height: 1.26rem;
+	z-index: 9;
+	background: url(../img/prev.png?v=1.01) no-repeat center center/100% 100%;
+}
+
+.swiper_btn_next {
+	top: 4.76rem;
+	left: 6.67rem;
+	width: 0.39rem;
+	height: 1.26rem;
+	z-index: 9;
+	background: url(../img/next.png?v=1.01) no-repeat center center/100% 100%;
+}
+
+.logo {
+	position: absolute;
+	top: 0.31rem;
+	left: 0.48rem;
+	width: 2.45rem;
+}
+
+
+/*page01*/
+
+.page01 {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../img/bg.jpg?v=1.01) no-repeat center center/100% 100%;
+	z-index: 15;
+}
+
+.p1_txt {
+	position: absolute;
+	top: 15.09%;
+	left: 1.99rem;
+	width: 3.52rem;
+}
+
+.p1_pic {
+	position: absolute;
+	top: 54.64%;
+	left: 1.82rem;
+	width: 3.86rem;
+}
+
+.page01 .p1_btn {
+	position: absolute;
+	top: 85.82%;
+	left: 2.31rem;
+	width: 2.88rem;
+}
+
+.page01 .p1_btn .btn {
+	width: 100%;
+}
+
+
+/*p2*/
+
+.page02 {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../img/bg.jpg?v=1.01) no-repeat center center/100% 100%;
+	z-index: 14;
+}
+
+.border {
+	position: absolute;
+	top: 11.19%;
+	left: 0.72rem;
+	width: 6.11rem;
+	pointer-events: none;
+	z-index: 999;
+}
+
+.make,
+.again {
+	position: absolute;
+	top: 87.72%;
+	left: 0.79rem;
+	width: 2.49rem;
+}
+
+.adver,
+.save {
+	position: absolute;
+	top: 87.72%;
+	right: 0.79rem;
+	width: 2.49rem;
+}
+
+.save1 {
+	position: absolute;
+	top: 92%;
+	left: 2rem;
+	width: 2.49rem;
+}
+
+.make .btn,
+.adver .btn,
+.again .btn,
+.save .btn {
+	width: 100%;
+}
+
+.page03 .swiper-container,
+.example_video_1-dimensions {
+	position: absolute;
+	top: 0.2rem;
+	left: 0.7rem;
+	width: 5.58rem;
+	height: 8.3rem;
+}
+
+.example_video_1-dimensions {
+	top: 0;
+	left: 0.9rem;
+}
+
+.swiper1 {
+	position: absolute;
+	top: 0;
+	left: 0.23rem;
+	right: 0.23rem;
+	width: 5.58rem;
+	height: 8.3rem;
+	z-index: 9999;
+}
+
+.swiper1 .swiper-slide {
+	width: 20%;
+	height: 100%;
+}
+
+.video-js {
+	position: absolute;
+	top: 0.05rem;
+	left: 0.95rem;
+	width: 5.58rem;
+	height: 8.3rem;
+	z-index: 998;
+}
+
+.video_area {
+	position: absolute;
+	top: 12.39%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.p2_prev {
+	left: 0.24rem;
+}
+
+.p2_next {
+	left: 6.9rem;
+}
+
+
+/*page03*/
+
+.page03 {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	/*display: none;*/
+	background: url(../img/bg.jpg?v=1.01) no-repeat center center/100% 100%;
+	z-index: 13;
+}
+
+.carousel {
+	position: absolute;
+	top: 11.19%;
+	left: 0.24rem;
+	width: 100%;
+}
+
+.page03 .swiper2 .pic_c,
+.page03 .swiper2 .pic,
+.page03 .clipArea1 {
+	position: absolute;
+	top: 0;
+	width: 5.58rem;
+	height: 8.3rem;
+	z-index: 0;
+}
+
+.page03 .img1 {
+	position: absolute;
+	top: 0;
+	width: 5.58rem;
+	height: 8.3rem;
+	z-index: 0;
+}
+
+.page03 .swiper2 .after {
+	position: absolute;
+	top: 0;
+	width: 5.58rem;
+	height: 8.3rem;
+}
+
+.page03 .swiper2 .after .pic_p {
+	position: absolute;
+	top: 0;
+	width: 5.58rem;
+	height: 8.3rem;
+	z-index: 10;
+	pointer-events: none;
+}
+
+
+/*文件上传*/
+
+.upload {
+	position: absolute;
+	top: 7.89rem;
+	left: 2.72rem;
+	width: 1.55rem;
+	z-index: 9999;
+}
+
+.upload .file_hide {
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	width: 1.5rem;
+	height: 1.5rem;
+	z-index: 10;
+}
+
+.upload .btn_pic {
+	position: absolute;
+	top: 0;
+	width: 1.55rem;
+	z-index: 9;
+}
+
+.choose {
+	position: absolute;
+	top: 12.8%;
+	left: 0.94rem;
+	width: 5.58rem;
+	height: 8.3rem;
+	z-index: 0;
+}
+
+.final,
+#photoImgCan {
+	position: absolute;
+	top: 12.0%;
+	left: 0.95rem;
+	width: 5.58rem;
+	height: 8.4rem;
+	z-index: 999;
+}
+
+.final,
+#photoImgCan {
+	pointer-events: none;
+}
+
+#photoImgCan {
+	display: none;
+}
+
+.swiper2 {
+	pointer-events: none;
+}
+
+
+/*规则*/
+
+.rule_area {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/rule_bg.png?v=1.01) repeat center center/100% 100%;
+}
+
+.rule_area .r_txt {
+	position: absolute;
+	top: 28.03%;
+	left: 2.64rem;
+	width: 2.22rem;
+}
+
+.rule_area .close {
+	position: absolute;
+	top: 42.87%;
+	left: 3.245rem;
+	width: 1.01rem;
+}
+
+.rule_area .r01 {
+	position: absolute;
+	top: 79.02%;
+	left: 0.93rem;
+	width: 2.26rem;
+}
+
+.rule_area .r02 {
+	position: absolute;
+	top: 76.2%;
+	right: 0.69rem;
+	width: 2.36rem;
+}
+
+.rule_area .r03 {
+	position: absolute;
+	/*top: 71.14%;*/
+	top: 8.5rem;
+	left: 2.34rem;
+	width: 2.69rem;
+}
+
+.p2_rule .r02 {
+	top: 76%;
+}
+
+.p3_rule .r01 {
+	top: 81.34%;
+}
+
+.p3_rule .r02 {
+	top: 80.02%;
+	width: 1.97rem;
+}
+
+.p3_rule .r03 {
+	width: 2.69rem;
+}
+
+.p3_rule .r7 {
+	position: absolute;
+	top: 35%;
+	left: 2.36rem;
+	width: 2.78rem;
+}
+
+.p3_rule .r8,
+.p3_rule .r9 {
+	position: absolute;
+	top: 39.39%;
+	width: 0.38rem;
+}
+
+.p3_rule .r8 {
+	left: 0.24rem;
+}
+
+.p3_rule .r9 {
+	right: 0.24rem;
+}
+
+.p3_rule .r4,
+.p3_rule .r6 {
+	position: absolute;
+	top: 41.04%;
+	width: 1.08rem;
+}
+
+.p3_rule .r4 {
+	right: 0.7rem;
+}
+
+.p3_rule .r6 {
+	left: 0.7rem;
+}
+
+.swiper-pagination {
+	display: none;
+}
+
+.img4 {
+	position: absolute;
+	top: 7.42rem;
+	left: 5.2rem;
+	/*top: 7.22rem;
+	left: 4.5rem;*/
+	width: 1rem;
+	height: 1rem;
+	z-index: 9999;
+}
+
+.link {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: auto;
+}
+
+.link img {
+	width: 100%;
+	height: auto;
+}
+
+.link .back {
+	position: fixed;
+	padding: 0.1rem;
+	top: 1.5%;
+	left: 2%;
+	width: 1rem;
+	height: 1rem;
+}
+
+.link .back img {
+	width: 60%;
+}
+
+.tap_ani {
+	transform: scale(1.2)
+}
+
+.create {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 7.5rem;
+	height: 100%;
+}
+
+.create .img3 {
+	position: absolute;
+	/*top: 0.28rem;
+	left: 0.28rem;*/
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.create .c_rule,
+.create .content {
+	width: 100%;
+	height: 100%;
+}
+
+.c_rule .close {
+	top: 34.25%;
+}
+
+.c_rule .c10 {
+	position: absolute;
+	top: 27.36%;
+	left: 2.73rem;
+	width: 2.04rem;
+}
+
+.c_rule .c03 {
+	position: absolute;
+	top: 81%;
+	left: 2.73rem;
+	width: 2.04rem;
+}
+
+.c_rule .c8 {
+	position: absolute;
+	top: 52.23%;
+	right: 2.54rem;
+	width: 2.42rem;
+}
+
+.create .content .c1 {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+}
+
+.create .content .c9 {
+	position: absolute;
+	top: 89.64%;
+	left: 2.505rem;
+	width: 2.49rem;
+	z-index: 999;
+}
+
+.create .content .c9 img {
+	width: 100%;
+}

@@ -1,0 +1,412 @@
+@charset "utf-8";
+body,
+html {
+	height: 100%;
+}
+
+.none {
+	display: none;
+}
+
+body {
+	position: relative;
+	/*background: url(../img/bg.png) no-repeat center center/100% 100%;*/
+}
+
+.loadDiv {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	background-color: #D9D9D9;
+	/*background: url(../img/bg.png) no-repeat center center/100% 100%;*/
+}
+
+.bg {
+	width: 100%;
+	height: 100%;
+}
+
+.txt_area {
+	position: absolute;
+	left: 0;
+	top: 90%;
+	width: 100%;
+	height: 0.6rem;
+	line-height: 0.6rem;
+}
+
+/*.txt_area .loadBegin {
+	margin-left: 0.2rem;
+	float: left;
+	width: 15%;
+	text-align: center;
+	font-size: 0.38rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	color: #fff;
+}*/
+
+.txt_area .swiper0 {
+	/*float: left;*/
+	width: 100%;
+	height: 0.6rem;
+	z-index: 9999;
+}
+
+.txt_area .swiper0 .txt {
+	font-size: 0.3rem;
+	color: #fff;
+	text-align: center;
+}
+
+
+/*修改按钮*/
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+	opacity: 0.7;
+}
+
+.swiper_btn_prev {
+	position: absolute;
+	top: 4.76rem;
+	left: 0rem;
+	width: 0.39rem;
+	height: 1.26rem;
+	z-index: 9;
+	background: url(../img/prev.png) no-repeat center center/100% 100%;
+}
+
+.swiper_btn_next {
+	top: 4.76rem;
+	left: 6.67rem;
+	width: 0.39rem;
+	height: 1.26rem;
+	z-index: 9;
+	background: url(../img/next.png) no-repeat center center/100% 100%;
+}
+
+.p2_prev,
+.p2_next {
+	position: absolute;
+	top: 0.5rem;
+	/*top: 4.76rem;*/
+	/*left: 0rem;*/
+	z-index: 99999999;
+}
+
+.logo {
+	position: absolute;
+	top: 0.31rem;
+	left: 0.48rem;
+	width: 2.45rem;
+}
+
+.rule01 {
+	position: absolute;
+	top: 5.89%;
+	right: 0.64rem;
+	width: 1.74rem;
+}
+
+.page01 {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	/*display: none;*/
+	background: url(../img/bg.png) no-repeat center center/100% 100%;
+	z-index: 15;
+}
+
+.p1_01 {
+	position: absolute;
+	top: 15.09%;
+	left: 1.99rem;
+	width: 3.52rem;
+}
+
+.p1_02 {
+	position: absolute;
+	top: 54.64%;
+	left: 1.82rem;
+	width: 3.86rem;
+}
+
+.page01 .p1_btn {
+	position: absolute;
+	top: 85.82%;
+	left: 2.31rem;
+	width: 2.88rem;
+}
+
+
+/*p2*/
+
+.page02 {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	/*display: none;*/
+	background: url(../img/bg.png) no-repeat center center/100% 100%;
+	z-index: 14;
+}
+
+.make,
+.again {
+	position: absolute;
+	top: 87.72%;
+	left: 0.79rem;
+	width: 2.49rem;
+}
+
+.adver,
+.save {
+	position: absolute;
+	top: 87.72%;
+	right: 0.79rem;
+	width: 2.49rem;
+}
+
+
+/*page03*/
+
+.page03 {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	background: url(../img/bg.png) no-repeat center center/100% 100%;
+	z-index: 13;
+}
+
+.border {
+	position: absolute;
+	top: 11.19%;
+	left: 0.72rem;
+	width: 6.11rem;
+	pointer-events: none
+}
+
+.carousel {
+	position: absolute;
+	top: 11.19%;
+	left: 0.24rem;
+	/*width: 7.02rem;*/
+	/*height: 8.89rem;*/
+}
+
+/*.swiper-container ,
+.example_video_1-dimensions,
+#example_video_1 {
+	position: absolute;
+	top: 0.2rem;
+	left: 0.7rem;
+	width: 5.58rem;
+	height: 8.3rem;
+}*/
+.swiper-container ,
+.example_video_1-dimensions {
+	position: absolute;
+	top: 0.2rem;
+	left: 0.7rem;
+	width: 5.58rem;
+	height: 8.3rem;
+}
+/*.example_video_1-dimensions,
+#example_video_1 {
+	top: 12.39%;
+	left: 0.9rem;
+}*/
+.example_video_1-dimensions {
+	top: 12.39%;
+	left: 0.9rem;
+}
+.txt_area .swiper-container {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.swiper2 .pic_c,
+.swiper2 .pic,
+.clipArea1 {
+	position: absolute;
+	top: 0;
+	width: 5.58rem;
+	height: 8.3rem;
+	z-index: 0;
+}
+
+.img1 {
+	position: absolute;
+	top: 0;
+	width: 5.58rem;
+	height: 8.3rem;
+	z-index: 0;
+}
+
+.swiper2 .after .pic_p {
+	position: absolute;
+	top: 0;
+	width: 5.58rem;
+	height: 8.3rem;
+	z-index: 10;
+	pointer-events: none;
+}
+
+
+/*规则*/
+
+.rule_area {
+	/*display: none;*/
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	background: url(../img/rule_bg.png) repeat center center/100% 100%;
+}
+
+.rule_area .r_txt {
+	position: absolute;
+	top: 28.03%;
+	left: 2.64rem;
+	width: 2.22rem;
+}
+
+.rule_area .close {
+	position: absolute;
+	top: 42.87%;
+	left: 3.245rem;
+	width: 1.01rem;
+}
+
+.rule_area .r01 {
+	position: absolute;
+	top: 79.02%;
+	left: 0.93rem;
+	width: 2.26rem;
+}
+
+.rule_area .r02 {
+	position: absolute;
+	top: 76.2%;
+	right: 0.69rem;
+	width: 2.36rem;
+}
+
+.rule_area .r03 {
+	position: absolute;
+	top: 71.14%;
+	left: 2.34rem;
+	width: 2.69rem;
+}
+
+.p2_rule .r02 {
+	top: 76%;
+}
+
+.p3_rule .r02 {
+	top: 79.02%;
+	width: 1.97rem;
+}
+
+.p3_rule .r03 {
+	top: 71.14%;
+	width: 2.69rem;
+}
+
+
+/*文件上传*/
+
+.upload {
+	position: absolute;
+	top: 77.03%;
+	left: 2.975rem;
+	width: 1.55rem;
+	z-index: 10;
+}
+
+.upload .file_hide {
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	width: 1.5rem;
+	height: 1.5rem;
+	border: 1px solid blueviolet;
+	z-index: 10;
+}
+
+.upload .btn_pic {
+	position: absolute;
+	top: 0;
+	width: 1.55rem;
+	z-index: 9;
+}
+
+.choose {
+	position: absolute;
+	top: 13.8%;
+	left: 0.94rem;
+	width: 5.58rem;
+	height: 8.3rem;
+	z-index: 0;
+}
+
+
+/*.choose img {
+	width: 5.58rem;
+	height: 8.3rem;
+}*/
+
+.img3,
+.final,
+#photoImgCan {
+	position: absolute;
+	top: 13.0%;
+	left: 0.95rem;
+	width: 5.58rem;
+	height: 8.3rem;
+	z-index: 999;
+}
+
+.final,
+#photoImgCan {
+	pointer-events: none;
+}
+
+#photoImgCan {
+	display: none;
+}
+
+.swiper2 {
+	pointer-events: none;
+}
+
+.poi-eve {
+	pointer-events: none;
+}
+
+.swiper1 {
+	/*background-color: #000;*/
+}
+
+.swiper1 {
+	position: absolute;
+	top: 40%;
+	left: 0.23rem;
+	width: 100%;
+	height: 1.3rem;
+}
+
+.swiper1 .swiper-slide {
+	height: 1.26rem;
+}
+
+.swiper-pagination {
+	display: none;
+}

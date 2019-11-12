@@ -1,0 +1,196 @@
+/*绋嬩笉鍑�*/
+/*閫氱敤鏂囦欢*/
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: none;
+}
+
+body,
+html {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.clear {
+	overflow: hidden;
+	_height: 1px;
+	_overflow: visible;
+}
+
+.clean {
+	font-size: 0px;
+	line-height: 0px;
+	clear: both;
+}
+
+.none {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+}
+
+a:hover,
+a img,
+a:hover img {
+	border: none;
+	text-decoration: none;
+}
+
+textarea {
+	resize: none;
+}
+
+input {
+	border: none;
+	background: none;
+	outline: none;
+}
+
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"]>input[type="button"]::-moz-focus-inner {
+	border: none;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+}
+
+i {
+	font-style: normal;
+}
+
+ul,
+ol,
+dl {
+	list-style-type: none;
+}
+
+.fl,
+.lifl li {
+	float: left;
+	display: inline;
+	list-style: none;
+}
+
+.fr {
+	float: right;
+	display: inline;
+}
+
+.fmyh {
+	font-family: Microsoft YaHei, LiHei Pro;
+}
+
+.po-re {
+	position: relative;
+}
+
+.po-ab {
+	position: absolute;
+}
+
+.music_p {
+	background: url(../img/musicOpen.png) no-repeat center 100%/100%;
+	width: 0.72rem;
+	height: 0.72rem;
+	position: absolute;
+	top: 0.32rem;
+	right: 0.4rem;
+	z-index: 9999;
+}
+
+.rotate {
+	animation: rotate infinite linear 2s;
+	-webkit-animation: rotate infinite linear 2s;
+}
+
+@keyframes rotate {
+	0% {
+		-webkit-transform: rotate(0)
+	}
+	50% {
+		-webkit-transform: rotate(180deg)
+	}
+	100% {
+		-webkit-transform: rotate(360deg)
+	}
+}
+
+@-webkit-keyframes rotate {
+	0% {
+		-webkit-transform: rotate(0)
+	}
+	50% {
+		-webkit-transform: rotate(180deg)
+	}
+	100% {
+		-webkit-transform: rotate(360deg)
+	}
+}
+
+.swiper-container {
+	width: 100%;
+}
+
+.swiper-slide {
+	width: 100%;
+	height: 100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.swiper-slide img {
+	/*position: absolute;*/
+}
+
+.swiper-wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+
+/*.swiper-slide-active{ opacity: 0.1;}*/
+
+.full {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+input::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #d9d9d9;
+}
+
+input:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #d9d9d9;
+}
+
+input::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #d9d9d9;
+}
+
+input:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #d9d9d9;
+}
+
+.none {
+	display: none;
+}

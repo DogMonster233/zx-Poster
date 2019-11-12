@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>“ Let' s go Party 艺起来吧，少年！ ”</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<script src="js/rem.js"></script>
+		<link rel="stylesheet" href="css/config.css" />
+		<link rel="stylesheet" href="css/animate.min.css" />
+		<link rel="stylesheet" href="css/swiper-4.3.5.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/video-js.css" />
+		<link rel="stylesheet" type="text/css" href="css/animations.css?v=1.1" />
+		<link rel="stylesheet" href="css/index.css?v=1.17" />
+	</head>
+
+	<body>
+		<!--loading-->
+		<div id="loadDiv" class="full loadDiv">
+			<div class="txt_area">
+				<ul id="div1" class="core">
+					<li class="txt">炫酷舞台正在搭建中……</li>
+					<li class="txt">灯光师已就位，请开始你的表演</li>
+					<li class="txt">摄影师已就位，来，看镜头</li>
+					<li class="txt">音响师已就位，话筒交给这位朋友</li>
+					<li class="txt">前方高能预警，一波萌娃来袭~</li>
+					<li class="txt">通往爱丁堡戏剧节的童梦专列即将发车~</li>
+					<li class="txt">古灵精怪萌娃C位出道！</li>
+				</ul>
+			</div>
+			<img src="img/bg.jpg?v=1.1" class="bg">
+			<img src="img/logo.png?v=1.1" class="logo">
+			<img class="p1_txt" src="img/p1_01.png?v=1.1" />
+			<img class="p1_pic" src="img/p1_02.png?v=1.1" />
+		</div>
+		<div class="main">
+			<!--p1-->
+			<div class="page01">
+				<img class="logo" src="img/logo.png?v=1.1" />
+				<img class="p1_txt" src="img/p1_01.png?v=1.1" />
+				<img class="p1_pic" src="img/p1_02.png?v=1.1" />
+				<div class="p1_btn shake6">
+					<img class="btn " src="img/p1_btn.png?v=1.1" />
+				</div>
+
+			</div>
+
+			<!--p2-->
+			<div class="page02">
+				<img class="logo" src="img/logo.png?v=1.1" />
+
+				<div class="video_area">
+					<video id="videoV " class="video-js video1" autoplay="autoplay" poster="img/loading.gif"  webkit-playsinline="webkit-playsinline" playsinline="playsinline" x5-playsinline="x5-playsinline" x-webkit-airplay="allow" x5-video-orientation="portrait" x5-video-player-type="h5" data-setup="{}">
+						<source src="http://wx.cdn.whyimingkeji.com/wx/zxtfbjjrc/poster/img/video_2.mp4" type='video/mp4' />
+					</video>
+					<div class="swiper-container swiper1">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide slide-video" data-video='http://wx.cdn.whyimingkeji.com/wx/zxtfbjjrc/poster/img/video_2.mp4'></div>
+							<div class="swiper-slide slide-video" data-video='http://wx.cdn.whyimingkeji.com/wx/zxtfbjjrc/poster/img/video_0.mp4'></div>
+							<div class="swiper-slide slide-video" data-video='http://wx.cdn.whyimingkeji.com/wx/zxtfbjjrc/poster/img/video_1.mp4'></div>
+						</div>
+					</div>
+					<div class="swiper-pagination swp1"></div>
+					<div class="swiper-button-prev swiper_btn_prev p2_prev shake4"></div>
+					<div class="swiper-button-next swiper_btn_next p2_next shake5"></div>
+				</div>
+				<img class="border" src="img/border.png?v=1.1" />
+				<div class="make">
+
+					<img class="btn" src="img/p2_btn01.png?v=1.1" />
+				</div>
+				<!--<a href="link.html"><img class="adver" src="img/p2_btn02.png?v=1.1" /></a>-->
+				<div class="adver">
+
+					<img class="btn" src="img/p2_btn02.png?v=1.1" />
+				</div>
+				<!--page02-rule-->
+				<div class="rule_area p2_rule">
+					<img class="r_txt shake" src="img/p2_rt.png?v=1.1" />
+					<img class="close p2_close" src="img/close.png?v=1.1" />
+					<img class="r01 tip1" src="img/p2_r01.png?v=1.1" />
+					<img class="r02 tip1" src="img/p2_r02.png?v=1.1" />
+				</div>
+			</div>
+
+			<div class="link none">
+				<div class="back">
+					<img src="img/back.png?v=1.1" />
+				</div>
+				<img src="img/link.jpg?v=1.1" />
+			</div>
+
+			<!--p3-->
+			<div class="page03 none">
+				<img class="logo" src="img/logo.png?v=1.1" />
+				<label id="choose_File" for="file" class="choose">
+            		<img src="" class="img1" id="img1">
+					<span class="image">
+						<div id="clipArea" class="clipArea1"></div>
+					</span>
+        		</label>
+				<canvas id="photoImgCan" class=""></canvas>
+				<img class="final" href="" download="">
+
+				<div class="carousel">
+					<div class="swiper-container  swiper2">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide stop-swiping">
+								<img class="pic" src="img/pic01.jpg?v=1.1" />
+
+								<div class="after">
+									<img class="pic_p" id="img2" src="img/pic01a.png?v=1.1" />
+								</div>
+							</div>
+							<div class="swiper-slide stop-swiping">
+								<img class="pic" src="img/pic02.jpg?v=1.1" />
+
+								<div class="after">
+									<img class="pic_p" src="img/pic02a.png?v=1.1" />
+								</div>
+							</div>
+							<div class="swiper-slide stop-swiping">
+								<img class="pic" src="img/pic03.jpg?v=1.1" />
+
+								<div class="after">
+									<img class="pic_p" src="img/pic03a.png?v=1.1" />
+								</div>
+							</div>
+							<div class="swiper-slide stop-swiping">
+								<img class="pic" src="img/pic04.jpg?v=1.1" />
+
+								<div class="after">
+									<img class="pic_p" src="img/pic04a.png?v=1.1" />
+								</div>
+							</div>
+							<div class="swiper-slide stop-swiping">
+								<img class="pic" src="img/pic05.jpg?v=1.1" />
+
+								<div class="after">
+									<img class="pic_p" src="img/pic05a.png?v=1.1" />
+								</div>
+							</div>
+							<div class="swiper-slide stop-swiping">
+								<img class="pic" src="img/pic06.jpg?v=1.1" />
+
+								<div class="after">
+									<img class="pic_p" src="img/pic06a.png?v=1.1" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination swp2"></div>
+					<div class="swiper-button-prev swiper_btn_prev p3_prev"></div>
+					<div class="swiper-button-next swiper_btn_next p3_next"></div>
+					<div class="upload" id="upload">
+						<input id="file" class="file_hide" name="licence" type="file" accept="image/*">
+						<img class="btn_pic" src="img/p3_btn03.png?v=1.1" />
+					</div>
+				</div>
+
+				<img class="border" src="img/border.png?v=1.1" />
+				<div class="again">
+					<img class="btn" src="img/p3_btn01.png?v=1.1" />
+				</div>
+				<div class="save">
+					<img class="btn" src="img/p3_btn02.png?v=1.1" />
+				</div>
+
+				<!--page03-rule-->
+				<div class="rule_area p3_rule">
+					<img class="r7" src="img/r7.png?v=1.1" />
+					<img class="close p3_close" src="img/close.png?v=1.1" />
+					<img class="r8 " src="img/prev.png?v=1.1" />
+					<img class="r9 " src="img/next.png?v=1.1" />
+					<img class="r6 shake4" src="img/r6.png?v=1.1" />
+					<img class="r4 shake5" src="img/r4.png?v=1.1" />
+					<img class="r01 tip1" src="img/p3_r01.png?v=1.1" />
+					<img class="r02 tip1" src="img/p3_r03.png?v=1.1" />
+					<img class="r03 tip1" src="img/p3_r02.png?v=1.1" />
+				</div>
+			</div>
+
+			<div class="create none">
+				<div class="content">
+					<img class="c1" src="img/c1.png?v=1.1" />
+					<div class="c9 again">
+						<img src="img/c9.png?v=1.1" />
+					</div>
+					<img class="img3 poi-eve" id="img3" />
+				</div>
+				<div class="rule_area c_rule">
+					<img class="close" src="img/close.png?v=1.1" />
+					<img class="c10" src="img/c10.png?v=1.1" />
+					<img class="r03 c03" src="img/p3_r01.png?v=1.1" />
+					<img class="c8" src="img/c8.png?v=1.1" />
+				</div>
+			</div>
+		</div>
+
+		<!--<script>document.addEventListener('touchmove', function(e){e.preventDefault()}, false);</script>-->
+		<audio src="img/bgm.mp3" class="mp3" autoplay="autoplay" loop="loop" id="audio_mp3"></audio>
+
+		<!--js文件-->
+		<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/preloadjs-0.6.1.min.js" charset="utf-8"></script>
+		<script src="js/loading.js?v=1.6" charset="utf-8"></script>
+
+		<script src="http://wx.whyimingkeji.com/zcivcase/webservices/js/yiming.weixin.share.2.0.1.js"></script>
+		<!--<script src="http://d.86jia.cn/hsjer/activity/webservices/zciv.weixin.share.1.0.1.js"></script>-->
+		<script src="js/swiper.animate.min.js"></script>
+		<script src="js/swiper-4.3.5.min.js"></script>
+		<script src="js/music.js?v=1.02"></script>
+		<script src="js/hammer.min.js"></script>
+		<script src="js/iscroll-zoom.min.js"></script>
+		<script src="js/lrz.all.bundle.js"></script>
+		<script src="js/PhotoClip.min.js"></script>
+		
+		<script type="text/javascript">
+			var resoure={resoure}
+			window.addEventListener('contextmenu', function(e) {
+				e.preventDefault();
+			});
+		</script>
+		<script>
+			var mmp3 = document.querySelector("#audio_mp3")
+			document.addEventListener("WeixinJSBridgeReady", function() {
+				mmp3.play();
+			}, false);
+		</script>
+
+		<script>
+			//swiper
+			var swiper1 = new Swiper('.swiper1', {
+				centeredSlides: true,
+				loop:true,
+				navigation: {
+					nextEl: '.p2_next',
+					prevEl: '.p2_prev',
+				},
+				pagination: {
+					el: '.swp1',
+				},
+				on: {
+					slideChangeTransitionStart: function() {
+						console.log(this.activeIndex);
+						$('video').attr('src', $('.swiper-wrapper .swiper-slide-active').attr('data-video'))
+
+					}
+				}
+			})
+			$('video').attr('src', $('.swiper-wrapper .swiper-slide-active').attr('data-video'))
+			$('video')[0].onended = function() {
+				console.log('视频播放结束');
+				setTimeout(function() {
+					swiper1.slideNext();
+					$('video').attr('src', $('.swiper-wrapper .swiper-slide-active').attr('data-video'))
+					console.log($('.swiper-wrapper .swiper-slide-active').attr('data-video'))
+
+				}, 3000)
+			}
+
+			var swiper2 = new Swiper('.swiper2', {
+				pagination: {
+					el: '.swp2',
+					clickable: true,
+				},
+				navigation: {
+					nextEl: '.p3_next',
+					prevEl: '.p3_prev',
+				},
+				autoplay: false, //可选选项，自动滑动
+				centeredSlides: true,
+				observer: true,
+				observeParents: true,
+				noSwiping: true,
+				noSwipingClass: 'stop-swiping',
+				slideChangeTransitionStart: function(swiper) {
+					console.log(swiper.activeIndex)
+
+				}
+			});
+		</script>
+
+		<script>
+			wx_share.config({
+				debug: false,
+				config_debug: false,
+				img: 'http://wx.whyimingkeji.com/wx/zxtfbjjrc/poster/shaw.jpg',
+				url: 'http://wx.whyimingkeji.com/wx/zxtfbjjrc/poster/index1.html',
+				title: '“ Let\'s go Party  艺起来吧， 少年！ ” ',
+				desc: '在童画展览馆里艺想天开~',
+				success: function() {}
+			});
+		</script>
+		<script src="js/index.js?v=1.27" charset="utf-8"></script>
+	</body>
+
+</html>
